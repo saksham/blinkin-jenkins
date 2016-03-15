@@ -6,9 +6,8 @@ version = '0.1'
 setup(name='blinkin-jenkins',
       version=version,
       description="Connecting traffic light to CI Jenkins using Raspberry Pi",
-      long_description="""\
-""",
-      classifiers=[], # Get strings from http://pypi.python.org/pypi?%3Aaction=list_classifiers
+      long_description="""""",
+      classifiers=[],# Get strings from http://pypi.python.org/pypi?%3Aaction=list_classifiers
       keywords='traffic-light jenkins raspberry-pi sketching electronics',
       author='Saksham Gautam',
       author_email='saksham@no-reply.github.com',
@@ -19,6 +18,7 @@ setup(name='blinkin-jenkins',
       zip_safe=True,
       install_requires=[
           # -*- Extra requirements: -*-
+          "python-jenkins",
       ],
       entry_points="""
       # -*- Entry points: -*-
