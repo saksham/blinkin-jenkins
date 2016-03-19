@@ -1,1 +1,1 @@
-python-jenkins==0.4.13
+python-jenkins==0.4.12
